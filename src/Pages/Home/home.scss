@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets,
+    .notificationTimeline,
+    .charts,.trafficOnSite{
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+    }
+    .listContainer {
+      padding: 20px;
+      margin: 20px;
+      box-shadow: 2x 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+      .listTitle {
+        color: gray;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

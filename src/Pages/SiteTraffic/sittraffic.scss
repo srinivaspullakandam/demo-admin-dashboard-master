@@ -1,0 +1,98 @@
+.trafficSite {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 1.5rem;
+
+    .title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #00aeef;
+    }
+  }
+
+  .siteTrafficBottomWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    gap: 25px;
+
+    .leftWrapper {
+      width: 50%;
+    }
+
+    .leftSection {
+      display: flex;
+      margin-bottom: 1.5rem;
+      flex-direction: row;
+      flex-grow: 1;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+
+      .dayName {
+        font-size: 0.875em;
+        color: rgba(44, 56, 74, 0.681);
+        width: 90px;
+      }
+
+      .clientValuesOnDay {
+        width: 100%;
+      }
+    }
+
+    .rightWrapper {
+      width: 50%;
+
+      .topSection {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 0.25rem;
+      }
+
+      .genderSectionReviews{
+        margin-bottom: 3rem;
+      }
+
+      .genderDetails {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .genderValue{
+            color: rgba(44, 56, 74, 0.681);
+            width: 90px;
+        }
+      }
+
+      .genderReviews {
+        font-weight: 600;
+      }
+
+      .mb1{
+        margin-bottom: 0.6rem;
+      }
+
+      .socialSectionReviews{
+
+        .socialPlatformName{
+            margin-left: 5px;
+            font-size: 0.875em;
+            color: rgba(44, 56, 74, 0.681);
+        }
+      }
+    }
+  }
+}
